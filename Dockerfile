@@ -18,4 +18,6 @@ RUN npm install -g yarn gulp webpack
 
 RUN apt install -y nginx
 
+RUN echo "Hello Framgia"
+
 CMD ["/usr/sbin/nginx", "-g", "daemon off;"]
